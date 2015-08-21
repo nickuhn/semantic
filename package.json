@@ -1,0 +1,19 @@
+{
+  "name": "semantic",
+  "version": "1.0.0",
+  "description": "semantic html project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickuhn/semantic.git"
+  },
+  "author": "Nick Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickuhn/semantic/issues"
+  },
+  "homepage": "https://github.com/nickuhn/semantic#readme"
+}

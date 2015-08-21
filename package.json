@@ -1,0 +1,30 @@
+{
+  "name": "semantic",
+  "version": "1.0.0",
+  "description": "semantic html project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/app.jsx -o built/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickuhn/semantic.git"
+  },
+  "author": "Nick Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickuhn/semantic/issues"
+  },
+  "homepage": "https://github.com/nickuhn/semantic#readme",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
